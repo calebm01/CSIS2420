@@ -1,0 +1,26 @@
+Testing results:
+When changing the size of the array, the obvious notice is that the hash table allows more data to come in from the arrays, 
+the list gets more expansive each time you run the program as you increase the hash array size. 
+
+I decided to start with the default amount and go up by multiples of 10
+
+Hash Array Size is 3: 0 ms
+
+Hash Array Size is 30: 0 ms
+
+Hash Array Size is 300: 2 ms
+
+Hash Array Size is 3,000: 5 ms
+
+Hash Array Size is 4,000: 8 ms
+
+Hash Array Size is 4,500: 10 ms
+
+
+
+
+
+
+I feel as though the optimal size for the HashArray in this program can go much higher, as the timing code didn't seem bad at all as the size increased before running out.
+If the data size was larger, the program would exponentially take longer to find the nodes, so the optimal size may not be as high as one might think.
+I think a safe and optimal data size given the data I've gathered is roughly 450,000 records.
